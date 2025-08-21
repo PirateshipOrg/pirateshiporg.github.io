@@ -33,7 +33,7 @@ theme = 'docura'
     weight = 2
 
   [[menu.main]]
-    url = "/docs/presentation"
+    url = "/docs/presentation/ccsummit"
     name = "Talks and Slides"
     identifier = "talks"
     pre = "<i class='icon icon-youtube'></i>"
