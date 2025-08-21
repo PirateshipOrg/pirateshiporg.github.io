@@ -32,6 +32,13 @@ theme = 'docura'
     pre = "<i class='icon icon-book'></i>"
     weight = 2
 
+  [[menu.main]]
+    url = "/docs/presentation"
+    name = "Talks and Slides"
+    identifier = "talks"
+    pre = "<i class='icon icon-youtube'></i>"
+    weight = 2
+
 
 [params]
 
