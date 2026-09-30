@@ -1,0 +1,97 @@
+{{ define "main" }}
+<style>
+  /* Selectors are .cover-prefixed so they outrank the theme's `.cover p` rule. */
+
+  /* The theme's --color-anchor (#328ac1) only reaches 3.79:1 against white, so the
+     cover defines its own accent per color scheme to clear WCAG AA at this text size. */
+  .cover {
+    --paper-accent: #175a83;
+    --paper-accent-hover: #0f4462;
+    --paper-accent-contrast: #ffffff;
+  }
+
+  :root[data-color="dark"] .cover,
+  :root[data-color="night"] .cover {
+    --paper-accent: #7cc0ea;
+    --paper-accent-hover: #a3d4f2;
+    --paper-accent-contrast: #121212;
+  }
+
+  .cover .paper-authors {
+    width: min(760px, 90vw);
+    font-size: 1.05em;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--color);
+    padding-top: 1.2em;
+  }
+
+  .cover .paper-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    padding-top: 1.8em;
+  }
+
+  .cover .paper-link {
+    display: inline-block;
+    font-size: .95em;
+    line-height: 1.4;
+    padding: .6em 1.2em;
+    border: 1px solid var(--paper-accent);
+    border-radius: 6px;
+    color: var(--paper-accent);
+    text-decoration: none;
+    transition: background .15s ease, border-color .15s ease, color .15s ease;
+  }
+
+  .cover .paper-link:hover {
+    border-color: var(--paper-accent-hover);
+    color: var(--paper-accent-hover);
+  }
+
+  .cover .paper-link.primary {
+    background: var(--paper-accent);
+    border-color: var(--paper-accent);
+    color: var(--paper-accent-contrast);
+  }
+
+  .cover .paper-link.primary:hover {
+    background: var(--paper-accent-hover);
+    border-color: var(--paper-accent-hover);
+    color: var(--paper-accent-contrast);
+  }
+</style>
+<div id="site-main-content-wrapper">
+  <main>
+    <section class="cover">
+      <h1>{{ .Site.Title }}</h1>
+      <h2>{{ .Site.Params.description }}</h2>
+
+      {{ with .Site.Params.home.cover }}
+        {{ with .authors }}
+          <p class="paper-authors">{{ range $i, $line := . }}{{ if $i }}<br>{{ end }}{{ $line }}{{ end }}</p>
+        {{ end }}
+
+        {{ with .links }}
+          <div class="paper-links">
+            {{ range . }}
+              <a class="paper-link{{ if .primary }} primary{{ end }}" href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+            {{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
+
+      {{ with .Site.Params.home.repository }}
+        {{ partial "github-buttons" . }}
+      {{ else }}
+        {{ with .Site.Params.home.repositories }}
+          {{ partial "github-repos-grid" . }}
+        {{ end }}
+      {{ end }}
+
+    </section>
+  </main>
+</div>
+{{ end }}

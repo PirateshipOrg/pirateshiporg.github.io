@@ -1,7 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://pirateshiporg.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Pirateship'
 theme = 'docura'
+
+[markup]
+  [markup.highlight]
+    noClasses = false
 
 [caches]
   [caches.images]
@@ -15,7 +19,7 @@ theme = 'docura'
     contentDir = "content/en"
     title = "Pirateship"
     [languages.en.params]
-      description = "Consensus Protocol for (Mostly) Trusted Execution Environments"
+      description = "Append-Only Ledgers for (Mostly) Trusted Execution Environments"
 
 [menu]
   [[menu.main]]
@@ -54,3 +58,21 @@ present = 2025
 
 repository = "PirateshipOrg/pirateship"
 
+[params.home.cover]
+authors = [
+  "Shubham Mishra, João Gonçalves, Chawinphat Tankuranand, Neil Giridharan,",
+  "Natacha Crooks, Heidi Howard, Chris Jensen",
+]
+
+  [[params.home.cover.links]]
+  name = "Conference Version (SOSP 2026)"
+  url = "https://dl.acm.org/doi/10.1145/3830418.3843903"
+  primary = true
+
+  [[params.home.cover.links]]
+  name = "Extended Version"
+  url = "https://arxiv.org/html/2602.05346v2"
+
+  [[params.home.cover.links]]
+  name = "Github"
+  url = "https://github.com/PirateshipOrg/pirateship"

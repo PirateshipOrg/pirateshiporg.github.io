@@ -18,5 +18,7 @@ Audited transactions are safe against a fraction of the TEE platforms getting co
 
 - Code: https://github.com/PirateshipOrg/pirateship
 - TLA+ Spec: https://github.com/PirateshipOrg/pirateship-tla
+- Paper (SOSP ’26): https://dl.acm.org/doi/10.1145/3830418.3843903
+- Extended version: https://arxiv.org/html/2602.05346v2
 
-Paper will be released soon!
+See the [Paper](/docs/paper) page for the full citation and BibTeX.

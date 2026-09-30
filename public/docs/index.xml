@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Pirateship</title>
-    <link>http://localhost:1313/docs/</link>
+    <link>https://pirateshiporg.github.io/docs/</link>
     <description>Recent content in Docs on Pirateship</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 21 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://pirateshiporg.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper</title>
+      <link>https://pirateshiporg.github.io/docs/paper/</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://pirateshiporg.github.io/docs/paper/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Pirateship: Append-Only Ledgers for (Mostly) Trusted Execution Environments&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Shubham Mishra, João Gonçalves, Chawinphat Tankuranand, Neil Giridharan, Natacha Crooks, Heidi Howard, Chris Jensen&lt;/p&gt;&#xA;&lt;p&gt;Proceedings of the ACM SIGOPS 32nd Symposium on Operating Systems Principles (SOSP ’26), Prague, Czech Republic, pp. 730–745.&#xA;DOI: &lt;a href=&#34;https://dl.acm.org/doi/10.1145/3830418.3843903&#34;&gt;10.1145/3830418.3843903&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Published version (ACM DL): &lt;a href=&#34;https://dl.acm.org/doi/10.1145/3830418.3843903&#34;&gt;https://dl.acm.org/doi/10.1145/3830418.3843903&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Extended version (arXiv): &lt;a href=&#34;https://arxiv.org/html/2602.05346v2&#34;&gt;https://arxiv.org/html/2602.05346v2&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The extended version contains the full proofs and additional experiments that did not fit within the page limit of the conference version.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Detailed discussion at UCSB</title>
-      <link>http://localhost:1313/docs/presentation/ucsb/</link>
+      <link>https://pirateshiporg.github.io/docs/presentation/ucsb/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/presentation/ucsb/</guid>
-      <description>&lt;p&gt;Shubham presented Pirateship at Prof. Dahlia Malkhi&amp;rsquo;s research group on Aug 21, 2025.&#xA;The slides are &lt;a href=&#34;http://localhost:1313/presentations/PirateShip_UCSBTalk.pptx&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;First half of the slides is the same as the &lt;a href=&#34;http://localhost:1313/docs/presentation/ccsummit&#34;&gt;high-level discussion at Confidential Computing Summit&lt;/a&gt;.&#xA;It dives deeper into the technique from Slide 27 onwards and has more results.&lt;/p&gt;</description>
+      <guid>https://pirateshiporg.github.io/docs/presentation/ucsb/</guid>
+      <description>&lt;p&gt;Shubham presented Pirateship at Prof. Dahlia Malkhi&amp;rsquo;s research group on Aug 21, 2025.&#xA;The slides are &lt;a href=&#34;https://pirateshiporg.github.io/presentations/PirateShip_UCSBTalk.pptx&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;First half of the slides is the same as the &lt;a href=&#34;https://pirateshiporg.github.io/docs/presentation/ccsummit&#34;&gt;high-level discussion at Confidential Computing Summit&lt;/a&gt;.&#xA;It dives deeper into the technique from Slide 27 onwards and has more results.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pirateship at CCSummit 2025</title>
-      <link>http://localhost:1313/docs/presentation/ccsummit/</link>
+      <link>https://pirateshiporg.github.io/docs/presentation/ccsummit/</link>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/presentation/ccsummit/</guid>
-      <description>&lt;p&gt;Pirateship was selected for a lightning talk at Confidential Computing Summit in 2025.&#xA;Here&amp;rsquo;s the youtube video for the presentation.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/oPYpZPkmTtY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Get the slides used in the presentation &lt;a href=&#34;http://localhost:1313/presentations/pirateship_ccsummit.pptx&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://pirateshiporg.github.io/docs/presentation/ccsummit/</guid>
+      <description>&lt;p&gt;Pirateship was selected for a lightning talk at Confidential Computing Summit in 2025.&#xA;Here&amp;rsquo;s the youtube video for the presentation.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/oPYpZPkmTtY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Get the slides used in the presentation &lt;a href=&#34;https://pirateshiporg.github.io/presentations/pirateship_ccsummit.pptx&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pirateship</title>
-      <link>http://localhost:1313/docs/pirateship/</link>
+      <link>https://pirateshiporg.github.io/docs/pirateship/</link>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/pirateship/</guid>
+      <guid>https://pirateshiporg.github.io/docs/pirateship/</guid>
       <description>&lt;p&gt;Pirateship is a consensus protocol for Trusted Execution Environments (TEEs), e.g., Intel TDX and AMD SEV-SNP.&#xA;Pirateship doesn&amp;rsquo;t trust TEEs blindly and recognizes that TEEs could be compromised.&#xA;It mitigates this issue by using multiple TEE platforms within the same cluster.&#xA;The consensus protocol allows two notions of confirmation: &lt;strong&gt;Commit&lt;/strong&gt; and &lt;strong&gt;Audit&lt;/strong&gt;.&#xA;While a transaction commits with very low latency, it may be rolled back on the off-chance a TEE has been compromised.&#xA;Audited transactions are safe against a fraction of the TEE platforms getting compromised.&lt;/p&gt;</description>
     </item>
   </channel>
